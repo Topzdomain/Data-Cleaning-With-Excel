@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Data Cleaning Process</h1>
+<p>The data cleaning process was done on Microsoft power query, The dataset was pulled into the power query using Get data From Range/CSV on Data Tab of Microsoft Excel; and the following steps were taken to clean the data.</p>
+
+<strong>Badly-structured-sales-Data-With-Analysis</strong>
+<ul>
+<li>Cancel/remove the "change type" carried out by the power query</li>
+<li>Highlight column1 and transposed the table</li>
+<li>Fill Down column1</li>
+<li>Filter out 'Consumer Total', 'Corporate Total' and 'Home Office Total' on Column1</li>
+<li>Promote first row as header</li>
+<li>Highlight 'Column1' and 'Column2', then unpivot other columns</li>
+<li>Depending on the version of Excel you are using, delete/remove the 'Order ID' containing Null values</li>
+<li>Rename the column titles based on the sample cleaned data</li>
+</ul>
+
+<strong>2-Badly-structured-sales-Data-2</strong>
+<ul>
+<li>Cancel/remove the 'change type' carried out by the power query</li>
+<li>Highlight column1 and trim the column</li>
+<li>Highlight column1 and transposed the table</li>
+<li>Fill Down column1</li>
+<li>Promote first row as header</li>
+<li>Highlight Column1 and Column2, then unpivot other columns</li>
+<li>Split 'Attribute' column by delimeter</li>
+<li>Remove 'Attribute.2' and 'Attribute.3' columns</li>
+<li>Change the data type for 'Attribute.1' to date format</li>
+<li>Rename columns to match sample cleaned data</li>
+<li>Re-order Columns to start with 'Order Date'</li>
+</ul>
+
+<strong>3-Badly-structured-sales-Data-3</strong>
+<ul>
+<li>Cancel/remove the "change type" carried out by the power query</li>
+<li>Merged 'Column 1' and 'Colmn 2'</li>
+<li>Highlight merged column and transposed the table</li>
+<li>Fill Down 'column1'</li>
+<li>Promote first row as header</li>
+<li>Highlight 'Column1' and 'Column2', then unpivot other columns</li>
+<li>Split 'Attribute' column by delimeter {=}</li>
+<li>Split 'Attribute.2' column by delimeter</li>
+<li>Remove 'Attribute.2.2' and 'Attribute.2.3' columns</li>
+<li>Change the data type for 'Attribute2.1' to date format</li>
+<li>Rename columns to match sample cleaned data</li>
+<li>Re-order Columns to start with 'Order Date'</li>
+</ul>
+
+<strong>5-Jumbled-up-Customer Details</strong>
+<ul>
+<li>Replace 'Name' with a delimeter {&}</li>
+<li>Replace 'Address' with a delimeter{-}</li>
+<li>Replace 'Age' with adelimeter {;}</li>
+<li>Replace 'Gender' with a delimeter {=}</li>
+<li>Split column by last delimeter {=}</li>
+<li>Split column by next delimeter {;</li>
+<li>Split column by delimeter (-)</li>
+<li>Split column by delimeter {&}</li>
+<li>Remove empty first column</li>
+<li>Rename columns to match sample cleaned data</li>
+<li>Change the data type for each column to match sample cleaned file</li>
+</ul>
+
